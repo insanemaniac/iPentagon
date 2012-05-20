@@ -103,6 +103,10 @@
 		F16D20E6155FB866008626C4 /* InstituteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16D20E4155FB866008626C4 /* InstituteTableViewController.m */; };
 		F16D20E7155FB866008626C4 /* InstituteTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16D20E5155FB866008626C4 /* InstituteTableViewController.xib */; };
 		F16E6F60151489800001AF18 /* StackMobCookieStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F16E6F5F151489800001AF18 /* StackMobCookieStore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F18295611568E539009DB5B3 /* TasksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F182955F1568E539009DB5B3 /* TasksTableViewController.m */; };
+		F18295621568E539009DB5B3 /* TasksTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18295601568E539009DB5B3 /* TasksTableViewController.xib */; };
+		F18295671568F5BC009DB5B3 /* GroupInstituteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18295651568F5BC009DB5B3 /* GroupInstituteTableViewController.m */; };
+		F18295681568F5BC009DB5B3 /* GroupInstituteTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18295661568F5BC009DB5B3 /* GroupInstituteTableViewController.xib */; };
 		F1902801153AC2300031FD7D /* AddGangsterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19027EB153AC2300031FD7D /* AddGangsterViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F1902802153AC2300031FD7D /* AddGangsterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19027EC153AC2300031FD7D /* AddGangsterViewController.xib */; };
 		F1902803153AC2300031FD7D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19027EE153AC2300031FD7D /* BaseViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -272,6 +276,12 @@
 		F16D20E5155FB866008626C4 /* InstituteTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstituteTableViewController.xib; sourceTree = "<group>"; };
 		F16E6F5E151489800001AF18 /* StackMobCookieStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackMobCookieStore.h; sourceTree = "<group>"; };
 		F16E6F5F151489800001AF18 /* StackMobCookieStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackMobCookieStore.m; sourceTree = "<group>"; };
+		F182955E1568E539009DB5B3 /* TasksTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksTableViewController.h; sourceTree = "<group>"; };
+		F182955F1568E539009DB5B3 /* TasksTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksTableViewController.m; sourceTree = "<group>"; };
+		F18295601568E539009DB5B3 /* TasksTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TasksTableViewController.xib; sourceTree = "<group>"; };
+		F18295641568F5BC009DB5B3 /* GroupInstituteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupInstituteTableViewController.h; sourceTree = "<group>"; };
+		F18295651568F5BC009DB5B3 /* GroupInstituteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupInstituteTableViewController.m; sourceTree = "<group>"; };
+		F18295661568F5BC009DB5B3 /* GroupInstituteTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupInstituteTableViewController.xib; sourceTree = "<group>"; };
 		F19027EA153AC2300031FD7D /* AddGangsterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGangsterViewController.h; sourceTree = "<group>"; };
 		F19027EB153AC2300031FD7D /* AddGangsterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGangsterViewController.m; sourceTree = "<group>"; };
 		F19027EC153AC2300031FD7D /* AddGangsterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddGangsterViewController.xib; sourceTree = "<group>"; };
@@ -689,6 +699,12 @@
 				F16D20E3155FB866008626C4 /* InstituteTableViewController.h */,
 				F16D20E4155FB866008626C4 /* InstituteTableViewController.m */,
 				F16D20E5155FB866008626C4 /* InstituteTableViewController.xib */,
+				F182955E1568E539009DB5B3 /* TasksTableViewController.h */,
+				F182955F1568E539009DB5B3 /* TasksTableViewController.m */,
+				F18295601568E539009DB5B3 /* TasksTableViewController.xib */,
+				F18295641568F5BC009DB5B3 /* GroupInstituteTableViewController.h */,
+				F18295651568F5BC009DB5B3 /* GroupInstituteTableViewController.m */,
+				F18295661568F5BC009DB5B3 /* GroupInstituteTableViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -846,6 +862,8 @@
 				F1340C121556BA35008F8D70 /* DashboardViewController.xib in Resources */,
 				F16D20E1155FA3A2008626C4 /* GroupsTableViewController.xib in Resources */,
 				F16D20E7155FB866008626C4 /* InstituteTableViewController.xib in Resources */,
+				F18295621568E539009DB5B3 /* TasksTableViewController.xib in Resources */,
+				F18295681568F5BC009DB5B3 /* GroupInstituteTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,6 +961,8 @@
 				F16D20E0155FA3A2008626C4 /* GroupsTableViewController.m in Sources */,
 				F16D20E6155FB866008626C4 /* InstituteTableViewController.m in Sources */,
 				F19BE89015679B8900890F49 /* DataManager.m in Sources */,
+				F18295611568E539009DB5B3 /* TasksTableViewController.m in Sources */,
+				F18295671568F5BC009DB5B3 /* GroupInstituteTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

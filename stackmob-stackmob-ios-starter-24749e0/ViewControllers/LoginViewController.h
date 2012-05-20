@@ -13,6 +13,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "CustomAlert.h"
 #import "DashboardViewController.h"
+#import "TasksTableViewController.h"
 
 @interface LoginViewController : BaseViewController<UITextFieldDelegate>
 {

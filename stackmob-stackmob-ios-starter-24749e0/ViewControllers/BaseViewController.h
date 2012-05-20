@@ -52,6 +52,11 @@
 -(void) didRecieveUserGroups:(NSArray *) groups;
 -(void) didRecieveUserInstitutes:(NSArray *) institutes;
 -(void) getUserInstitutes;
-
+-(void)didRecieveTasks:(id) tasks;
+-(void) didRecieveTaskDictionary:(NSDictionary *)task;
+-(void)didRecieveGroups:(id) groups;
+-(void)didRecieveGroupDictionary:(id) group;
+-(void)didRecieveUserGroupsForTask:(id) groups;
+-(void)didRecieveUserInstitutesForTask:(id) institutes;
 
 @end

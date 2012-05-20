@@ -15,5 +15,7 @@
 
 #define USER_CREDENTIALS_DB_NAME @"UserCredentials.plist"
 #define USER_DATA_DB_NAME @"UserData.plist"
+#define GROUP @"GROUP(S)"
+#define INSTITUTE @"INSTITUTE(S)"
 
 #endif

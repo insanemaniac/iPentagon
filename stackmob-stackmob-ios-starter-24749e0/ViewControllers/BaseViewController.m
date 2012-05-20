@@ -49,6 +49,36 @@
 }
 
 
+-(void)didRecieveUserInstitutesForTask:(id) institutes
+{
+    
+}
+
+-(void)didRecieveUserGroupsForTask:(id) groups
+{
+    
+}
+
+
+-(void)didRecieveTasks:(id) tasks
+{
+    
+}
+
+-(void)didRecieveGroups:(id) groups
+{
+    
+}
+
+-(void)didRecieveGroupDictionary:(id) group
+{
+    
+}
+
+-(void) didRecieveTaskDictionary:(NSDictionary *)task
+{
+    
+}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

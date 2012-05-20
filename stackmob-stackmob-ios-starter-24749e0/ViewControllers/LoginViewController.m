@@ -111,9 +111,13 @@
             [dataManager setCredentials:args];
             [dataManager setUserData:result];
             
-            DashboardViewController *dashboardViewController = [[DashboardViewController alloc] initWithNibName:@"DashboardViewController" bundle:nil];
-            [self.navigationController pushViewController:dashboardViewController animated:YES];
-            [dashboardViewController release];
+//            DashboardViewController *dashboardViewController = [[DashboardViewController alloc] initWithNibName:@"DashboardViewController" bundle:nil];
+//            [self.navigationController pushViewController:dashboardViewController animated:YES];
+//            [dashboardViewController release];
+            
+            TasksTableViewController *tasksTableViewContoller = [[TasksTableViewController alloc] initWithNibName:@"TasksTableViewController" bundle:nil];
+            [self.navigationController pushViewController:tasksTableViewContoller animated:YES];
+            [tasksTableViewContoller release];
             
         } else {
             // Login Failed
